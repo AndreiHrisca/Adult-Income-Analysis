@@ -8,7 +8,6 @@ def load_data(data_path: str) -> pd.DataFrame:
     Carga el dataset Adult en un DataFrame de pandas.
     data_path: ruta del archivo 'adult.data' (o el que desees).
     """
-    # Ajusta los nombres de las columnas si lo requieres, basándote en adult.names
     column_names = [
         "age", "workclass", "fnlwgt", "education", "education_num",
         "marital_status", "occupation", "relationship", "race",
@@ -21,7 +20,6 @@ def load_data(data_path: str) -> pd.DataFrame:
 
 def main():
     # Construye la ruta al archivo 'adult.data'
-    # Si estás en 'src', subes un nivel para llegar a la carpeta raíz y luego entras a 'data'
     data_path = os.path.join(os.path.dirname(__file__), "..", "data", "adult.data")
 
     # Cargar datos
@@ -52,8 +50,6 @@ def main():
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
-
-    # Puedes crear más gráficos para seguir explorando
 
 if __name__ == "__main__":
     main()
