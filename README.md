@@ -46,6 +46,15 @@ Este repositorio contiene:
 - scikit-learn -> https://scikit-learn.org/stable/index.html
 - jupyter -> https://jupyter.org/
 
+
+## Resultados y gráficos
+| Gráfico | Descripción |
+|---------|-------------|
+| ![Distribución de la edad](generated-graphs/Grafico1-distribucion-edad.png) | Distribución de `age` |
+| ![Distribución de horas por semana](generated-graphs/Grafico4-distribucion-hours-per-week.png) | Distribución de `hours_per_week` |
+| ![Distribución de capital_gain](generated-graphs/Grafico2-distribucion-capital-gain.png) | Distribución de `capital_gain` |
+| ![Frecuencia de niveles educativos](generated-graphs/Grafico3-distribucion-education.png) | Frecuencia de `education` |
+
 ## Dataset
 Becker, B. & Kohavi, R. (1996). Adult [Dataset].
 UCI Machine Learning Repository. https://doi.org/10.24432/C5XW20.
